@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ @font-face {
+    font-family: "vazir";
+    font-weight: normal;
+    font-style: normal;
+    src: url(/fonts/Vazir-Bold-FD-WOL.woff)
+    format("woff");
+ }
+ body {
+font-family: "vazir";
+ }
+.container {
+    background-color: #878383;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    margin-top: 85px;
+    align-content: space-between;
+    justify-content: space-between;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-right: 55px;
+    margin-left: 55px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+.container-1 {
+    background-color: #ca9494;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.container-11 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-11-2 {
+    display: flex;
+    flex-direction: row;
+
+}
+.text {
+  width: 80px;  
+  height: 80px;
+  background-color: aqua;
+  margin-top: 10px;
+  border-radius: 15%;
+text-align: justify;
+
+
+
+}
+ .text2 {
+    order: -1;
+    margin-top: 45px;
+    margin-right: 10px;
+ }
+
+.container-2 {
+    background-color: #ca9494;
+
+}
+.container-3 {
+    background-color: #ca9494;
+
+}
+.container-4 {
+    background-color: #ca9494;
+
+}
+.container-5 {
+    background-color: #ca9494;
+
+}
+.container-6 {
+    background-color: #ca9494;
+
+}
